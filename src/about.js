@@ -68,7 +68,7 @@ const About = () => {
                 </a>
               </div>
               <div className="fork-btn nav-item">
-                <a href="" className="fork-btn-inner btn btn-primary">
+                <a href="https://github.com/Yagnik-2104/Portfolioyagnik" target="_blank" className="fork-btn-inner btn btn-primary">
                   <FaCodeBranch style={{marginRight:'5px'}} />
                   <FaStar style={{marginLeft:'5px',marginBottom:'2px'}} />
                 </a>
