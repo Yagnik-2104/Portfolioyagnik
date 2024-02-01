@@ -17,7 +17,7 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { FiFileText } from "react-icons/fi";
 import { ImBlog } from "react-icons/im";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "../img/img1.png";
+import img from "./img/img1.png";
 
 const Resume = () => {
   return (
@@ -88,9 +88,22 @@ const Resume = () => {
           <div className="resume row">
             <div className="react-pdf__Document d-flex justify-content-center">
               <div className="react-pdf__Page" style={{ position: "relative" }}>
-                <img src="img1.png" alt="" className="w-100" />
+                <img src={img} alt="" className="w-100" />
               </div>
             </div>
+          </div>
+          <div
+            className="row"
+            style={{ justifyContent: "center", position: "relative" }}
+          >
+            <a
+              href="https://drive.google.com/file/d/1KEYHsAEV58L1dA2wRdLmbtdGlloeG0rt/view?usp=drive_link"
+              target="_blank"
+              className="btn btn-primary"
+              style={{ maxWidth: "250px" }}
+            >
+              <MdOutlineFileDownload /> Download CV
+            </a>
           </div>
         </div>
       </div>
