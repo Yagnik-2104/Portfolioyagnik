@@ -61,12 +61,7 @@ const Navbar = () => {
                   Resume
                 </Link>
               </div>
-              <div className="nav-item">
-                <a href="" className="nav-link">
-                  <ImBlog style={{ marginBottom: "5px", marginRight: "5px" }} />
-                  Blogs
-                </a>
-              </div>
+              
               <div className="fork-btn nav-item">
                 <a
                   href="https://github.com/Yagnik-2104/Portfolioyagnik"

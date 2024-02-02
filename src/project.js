@@ -47,21 +47,18 @@ const Project = () => {
                     className="card-title h5"
                     style={{ textAlign: "center" }}
                   >
-                    chatify
+                    My Portfolio
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                    Personal Chat Room or Workspace to share resources and
-                    hangout with friends build with react.js, Material-UI, and
-                    Firebase. Have features which allows user for realtime
-                    messaging, image sharing as well as supports reactions on
-                    messages.
+                  Build a stylish portfolio website using React.js and Bootstrap for a responsive and visually appealing design. Showcase your skills, projects, and achievements with React components, and ensure a seamless user experience with Bootstrap's grid system and components. Impress visitors with a modern and dynamic presentation of your work.
                   </p>
-                  <a href="" className="btn btn-primary">
+                  <a href="https://github.com/Yagnik-2104/Portfolioyagnik" target="_blank" className="btn btn-primary">
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
                   <a
-                    href=""
+                    href="https://portfolioyagnik.vercel.app/"
+                    target="_blank"
                     className="btn btn-primary"
                     style={{ marginLeft: "10px" }}
                   >
@@ -83,20 +80,18 @@ const Project = () => {
                     className="card-title h5"
                     style={{ textAlign: "center" }}
                   >
-                    Bits-0f-C0de
+                    Ecommerce Website
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                    My personal blog page build with Next.js and Tailwind Css
-                    which takes the content from makdown files and renders it
-                    using Next.js. Supports dark mode and easy to write blogs
-                    using markdown.
+                  Create a dynamic and responsive eCommerce website using React.js and Bootstrap. Leverage React's component-based architecture for seamless UI updates and Bootstrap's pre-designed components for a modern and mobile-friendly layout. Integrate state management for efficient data handling, ensuring a smooth and interactive shopping experience for users.
                   </p>
-                  <a href="" className="btn btn-primary">
+                  <a href="https://github.com/Yagnik-2104/ecommercewebsite" target="_blank" className="btn btn-primary">
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
                   <a
-                    href=""
+                    href="https://ecommercewebsite-three.vercel.app/"
+                    target="_blank"
                     className="btn btn-primary"
                     style={{ marginLeft: "10px" }}
                   >
@@ -118,22 +113,18 @@ const Project = () => {
                     className="card-title h5"
                     style={{ textAlign: "center" }}
                   >
-                    Editor.io
+                    Restourent Homepage
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                    Online code and markdown editor build with react.js. Online
-                    Editor which supports html, css, and js code with instant
-                    view of website. Online markdown editor for building README
-                    file which supports GFM, Custom Html tags with toolbar and
-                    instant preview.Both the editor supports auto save of work
-                    using Local Storage
+                  Craft an inviting restaurant homepage using React.js and Bootstrap, seamlessly blending React's dynamic components with Bootstrap's polished design. Prioritize responsive layout to enhance accessibility on diverse devices, creating an engaging and visually appealing entrance for users to explore the restaurant's offerings and services.
                   </p>
-                  <a href="" className="btn btn-primary">
+                  <a href="https://github.com/Yagnik-2104/restourenthome" target="_blank" className="btn btn-primary">
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
                   <a
-                    href=""
+                    href="https://restourenthome.vercel.app/"
+                    target="_blank"
                     className="btn btn-primary"
                     style={{ marginLeft: "10px" }}
                   >
@@ -155,23 +146,18 @@ const Project = () => {
                     className="card-title h5"
                     style={{ textAlign: "center" }}
                   >
-                    Plant AI
+                    IT Website Homepage
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                    Used the plant disease dataset from Kaggle and trained a
-                    image classifer model using 'PyTorch' framework using CNN
-                    and Transfer Learning with 38 classes of various plant
-                    leaves. The model was successfully able to detect diseased
-                    and healthy leaves of 14 unique plants. I was able to
-                    achieve an accuracy of 98% by using Resnet34 pretrained
-                    model.
+                  Create an innovative IT website homepage using React.js, featuring cutting-edge components for a dynamic user experience. Utilize React's flexibility to showcase services, technologies, and company information seamlessly.
                   </p>
-                  <a href="" className="btn btn-primary">
+                  <a href="https://github.com/Yagnik-2104/Homepage" target="_blank" className="btn btn-primary">
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
                   <a
-                    href=""
+                    href="https://homepage-three-green.vercel.app/"
+                    target="_blank"
                     className="btn btn-primary"
                     style={{ marginLeft: "10px" }}
                   >
@@ -193,14 +179,12 @@ const Project = () => {
                     className="card-title h5"
                     style={{ textAlign: "center" }}
                   >
-                    Ai For Social Good
+                    Blog Api Website
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                    Using 'Natural Launguage Processing' for the detection of
-                    suicide-related posts and user's suicide ideation in
-                    cyberspace and thus helping in sucide prevention.
+                  Build a robust blog API website with React.js, leveraging its powerful frontend capabilities. Implement seamless integration with backend APIs for dynamic content, ensuring a user-friendly and responsive blogging experience.
                   </p>
-                  <a href="" className="btn btn-primary">
+                  <a href="https://github.com/Yagnik-2104/Blogap" target="_blank" className="btn btn-primary">
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
@@ -208,36 +192,7 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="project-card col-md-4">
-              <div className="project-card-view card">
-                <img
-                  src="https://soumyajit.vercel.app/static/media/emotion.eabfc16e7a146ab15778.png"
-                  className="card-img-top"
-                  alt=""
-                />
-                <div className="card-body" style={{ textAlign: "center" }}>
-                  <div
-                    className="card-title h5"
-                    style={{ textAlign: "center" }}
-                  >
-                    Face Recognition and Emotion Detection
-                  </div>
-                  <p className="card-text" style={{ textAlign: "justify" }}>
-                    Trained a CNN classifier using 'FER-2013 dataset' with Keras
-                    and tensorflow backened. The classifier sucessfully
-                    predicted the various types of emotions of human. And the
-                    highest accuracy obtained with the model was 60.1%. Then
-                    used Open-CV to detect the face in an image and then pass
-                    the face to the classifer to predict the emotion of a
-                    person.
-                  </p>
-                  <a href="" className="btn btn-primary">
-                    <FaGithub />
-                    &nbsp; GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

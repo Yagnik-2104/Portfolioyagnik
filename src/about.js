@@ -78,9 +78,9 @@ const About = () => {
                     Hi Everyone, I am{" "}
                     <span className="purple">Yagnik Parmar </span>from{" "}
                     <span className="purple"> Surat, India.</span>
-                    <br />I am currently employed as a software developer at
-                    Juspay. <br />I have completed Integrated MSc (IMSc) in
-                    Maths and Computing at BIT Mesra. <br />
+                    <br />I am currently Studying  a React.js developer at
+                    Creative multimedia. <br />I have completed Integrated Bcom (Bcom) in
+                    R.v.patel college. <br />
                     <br />
                     Apart from coding, some other activities that I love to do!
                   </p>
