@@ -43,7 +43,7 @@ const NAvbar = () => {
             <span></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto navbar-nav">
+            <Nav className="ms-auto navbar-nav" style={{textAlign:'center'}}>
               <div className="nav-item">
                 <Link to="/" className="nav-link">
                   <AiOutlineHome
@@ -77,14 +77,14 @@ const NAvbar = () => {
                 </Link>
               </div>
               <div className="fork-btn nav-item">
-                <Nav.Link
+                <a
                   href="https://github.com/Yagnik-2104/Portfolioyagnik"
                   target="_blank"
                   className="fork-btn-inner btn btn-primary"
                 >
                   <FaCodeBranch style={{ marginRight: "5px" }} />
                   <FaStar style={{ marginLeft: "5px", marginBottom: "2px" }} />
-                </Nav.Link>
+                </a>
               </div>
             </Nav>
           </Navbar.Collapse>
