@@ -18,6 +18,7 @@ import { ImBlog } from "react-icons/im";
 import { Link } from "react-router-dom";
 import Navbar from "./nav";
 import Footer from "./footer";
+import portfolio from "./img/portfolio.png"
 
 const Project = () => {
   return (
@@ -38,7 +39,7 @@ const Project = () => {
             <div className="project-card col-md-4">
               <div className="project-card-view card">
                 <img
-                  src="https://soumyajit.vercel.app/static/media/chatify.7206044e0b5cdad44726.png"
+                  src={portfolio}
                   className="card-img-top"
                   alt=""
                 />
@@ -80,7 +81,7 @@ const Project = () => {
             <div className="project-card col-md-4">
               <div className="project-card-view card">
                 <img
-                  src="https://soumyajit.vercel.app/static/media/blog.fb8ab7f271a937d5fc01.png"
+                  src="https://www.dotupp.com/wp-content/uploads/2020/10/affordable-ecommerce-website.png"
                   className="card-img-top"
                   alt=""
                 />
@@ -123,7 +124,7 @@ const Project = () => {
             <div className="project-card col-md-4">
               <div className="project-card-view card">
                 <img
-                  src="https://soumyajit.vercel.app/static/media/codeEditor.1b585492490c8c1cace9.png"
+                  src="https://www.sliderrevolution.com/wp-content/uploads/2021/09/Tastyc.jpg"
                   className="card-img-top"
                   alt=""
                 />
@@ -165,7 +166,7 @@ const Project = () => {
             <div className="project-card col-md-4">
               <div className="project-card-view card">
                 <img
-                  src="https://soumyajit.vercel.app/static/media/leaf.ff2616f664c8c0ceab91.png"
+                  src="https://thumbs.dreamstime.com/b/website-design-wireframe-ruler-monitor-campaign-web-home-homepage-landing-page-template-banner-modern-flat-style-193434001.jpg"
                   className="card-img-top"
                   alt=""
                 />
@@ -205,7 +206,7 @@ const Project = () => {
             <div className="project-card col-md-4">
               <div className="project-card-view card">
                 <img
-                  src="https://soumyajit.vercel.app/static/media/suicide.9c86cd7138a398c45fa5.png"
+                  src="https://www.shutterstock.com/image-vector/blog-computer-laptop-blogging-website-600nw-1992106385.jpg"
                   className="card-img-top"
                   alt=""
                 />
