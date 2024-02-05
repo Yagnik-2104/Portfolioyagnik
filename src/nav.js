@@ -37,7 +37,11 @@ const NAvbar = () => {
               <b>Yp.</b>
             </h1>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto navbar-nav">
               <div className="nav-item">
