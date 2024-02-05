@@ -25,7 +25,6 @@ const Resume = () => {
   return (
     <div>
       <Navbar></Navbar>
-      
 
       <div>
         <div className="resume-section container-fluid">

@@ -17,8 +17,8 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
-import { SiVisualstudiocode,SiSublimetext  } from "react-icons/si";
-import { SiTailwindcss,SiPostman  } from "react-icons/si";
+import { SiVisualstudiocode, SiSublimetext } from "react-icons/si";
+import { SiTailwindcss, SiPostman } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { LiaUserSolid } from "react-icons/lia";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
@@ -28,12 +28,11 @@ import { Link } from "react-router-dom";
 import Navbar from "./nav";
 import Footer from "./footer";
 
-
 const About = () => {
   return (
     <div>
       <Navbar></Navbar>
-      
+
       <div className="about-section container-fluid">
         <div id="tsparticles">
           <canvas
@@ -78,9 +77,9 @@ const About = () => {
                     Hi Everyone, I am{" "}
                     <span className="purple">Yagnik Parmar </span>from{" "}
                     <span className="purple"> Surat, India.</span>
-                    <br />I am currently Studying  a React.js developer at
-                    Creative multimedia. <br />I have completed Integrated Bcom (Bcom) in
-                    R.v.patel college. <br />
+                    <br />I am currently Studying a React.js developer at
+                    Creative multimedia. <br />I have completed Integrated Bcom
+                    (Bcom) in R.v.patel college. <br />
                     <br />
                     Apart from coding, some other activities that I love to do!
                   </p>
@@ -180,16 +179,29 @@ const About = () => {
               <SiVisualstudiocode />
             </div>
             <div className="tech-icons col-md-2 col-4">
-            <SiSublimetext />
+              <SiSublimetext />
             </div>
             <div className="tech-icons col-md-2 col-4">
-            <SiPostman />
+              <SiPostman />
             </div>
           </div>
-          <div className="row" style={{justifyContent:"center",paddingBottom:'10px',textAlign:'center'}}>
-            <h1 className="project-heading">Days I <strong className="purple">Code</strong></h1>
+          <div
+            className="row"
+            style={{
+              justifyContent: "center",
+              paddingBottom: "10px",
+              textAlign: "center",
+            }}
+          >
+            <h1 className="project-heading">
+              Days I <strong className="purple">Code</strong>
+            </h1>
             <div className="react-activity-calendar edit-1">
-              <img src="https://raw.githubusercontent.com/grubersjoe/react-activity-calendar/HEAD/screenshot.png?v5" className="img-fluid" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/grubersjoe/react-activity-calendar/HEAD/screenshot.png?v5"
+                className="img-fluid"
+                alt=""
+              />
             </div>
           </div>
         </div>

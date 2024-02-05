@@ -16,19 +16,30 @@ import { FiFileText } from "react-icons/fi";
 import { ImBlog } from "react-icons/im";
 import { AiOutlineHome } from "react-icons/ai";
 import { FaStar } from "react-icons/fa6";
+import { MdOutlineMenu } from "react-icons/md";
+import { click } from "@testing-library/user-event/dist/click";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
-const Navbar = () => {
+const NAvbar = () => {
   return (
     <div>
-      <div className="sticky navbar navbar navbar-expand-md navbar-light fixed-top">
-        <div className="container">
-          <a href="" className="d-flex navbar-brand">
-            <h1 className="purple" style={{ margin: "0px" }}>
-              <b>Yp. </b>
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="sticky navbar navbar navbar-expand-md navbar-light fixed-top"
+      >
+        <Container>
+          <Navbar.Brand href="#home" className="d-flex navbar-brand">
+            <h1 className="purple">
+              <b>Yp.</b>
             </h1>
-          </a>
-          <div className="navbar-collapse collapse">
-            <div className="ms-auto navbar-nav">
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto navbar-nav">
               <div className="nav-item">
                 <Link to="/" className="nav-link">
                   <AiOutlineHome
@@ -49,8 +60,8 @@ const Navbar = () => {
                 <Link to="/Project" className="nav-link">
                   <AiOutlineFundProjectionScreen
                     style={{ marginBottom: "5px", marginRight: "5px" }}
-                  />
-                  Projects
+                  />{" "}
+                  Project
                 </Link>
               </div>
               <div className="nav-item">
@@ -61,22 +72,21 @@ const Navbar = () => {
                   Resume
                 </Link>
               </div>
-              
               <div className="fork-btn nav-item">
-                <a
+                <Nav.Link
                   href="https://github.com/Yagnik-2104/Portfolioyagnik"
                   target="_blank"
                   className="fork-btn-inner btn btn-primary"
                 >
                   <FaCodeBranch style={{ marginRight: "5px" }} />
                   <FaStar style={{ marginLeft: "5px", marginBottom: "2px" }} />
-                </a>
+                </Nav.Link>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 };
-export default Navbar;
+export default NAvbar;

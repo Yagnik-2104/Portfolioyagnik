@@ -779,3 +779,13 @@ button:focus {
     --react-activity-calendar-loading: hsl(0, 0%, 92%);
     --react-activity-calendar-loading-active: hsl(0, 0%, 84%);
 }
+
+
+
+.menu{
+  color: white;
+    /* justify-content: center; */
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+}

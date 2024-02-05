@@ -17,7 +17,7 @@ const Footer = () => {
             <h3>Designed and Developed by Yagnik Parmar</h3>
           </div>
           <div className="footer-copywright col-md-4">
-            <h3>Copyright © 2024 YB</h3>
+            <h3>Copyright © 2024 YP</h3>
           </div>
           <div className="footer-body col-md-4">
             <ul className="footer-icons">

@@ -50,9 +50,18 @@ const Project = () => {
                     My Portfolio
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                  Build a stylish portfolio website using React.js and Bootstrap for a responsive and visually appealing design. Showcase your skills, projects, and achievements with React components, and ensure a seamless user experience with Bootstrap's grid system and components. Impress visitors with a modern and dynamic presentation of your work.
+                    Build a stylish portfolio website using React.js and
+                    Bootstrap for a responsive and visually appealing design.
+                    Showcase your skills, projects, and achievements with React
+                    components, and ensure a seamless user experience with
+                    Bootstrap's grid system and components. Impress visitors
+                    with a modern and dynamic presentation of your work.
                   </p>
-                  <a href="https://github.com/Yagnik-2104/Portfolioyagnik" target="_blank" className="btn btn-primary">
+                  <a
+                    href="https://github.com/Yagnik-2104/Portfolioyagnik"
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
@@ -83,9 +92,19 @@ const Project = () => {
                     Ecommerce Website
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                  Create a dynamic and responsive eCommerce website using React.js and Bootstrap. Leverage React's component-based architecture for seamless UI updates and Bootstrap's pre-designed components for a modern and mobile-friendly layout. Integrate state management for efficient data handling, ensuring a smooth and interactive shopping experience for users.
+                    Create a dynamic and responsive eCommerce website using
+                    React.js and Bootstrap. Leverage React's component-based
+                    architecture for seamless UI updates and Bootstrap's
+                    pre-designed components for a modern and mobile-friendly
+                    layout. Integrate state management for efficient data
+                    handling, ensuring a smooth and interactive shopping
+                    experience for users.
                   </p>
-                  <a href="https://github.com/Yagnik-2104/ecommercewebsite" target="_blank" className="btn btn-primary">
+                  <a
+                    href="https://github.com/Yagnik-2104/ecommercewebsite"
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
@@ -116,9 +135,18 @@ const Project = () => {
                     Restourent Homepage
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                  Craft an inviting restaurant homepage using React.js and Bootstrap, seamlessly blending React's dynamic components with Bootstrap's polished design. Prioritize responsive layout to enhance accessibility on diverse devices, creating an engaging and visually appealing entrance for users to explore the restaurant's offerings and services.
+                    Craft an inviting restaurant homepage using React.js and
+                    Bootstrap, seamlessly blending React's dynamic components
+                    with Bootstrap's polished design. Prioritize responsive
+                    layout to enhance accessibility on diverse devices, creating
+                    an engaging and visually appealing entrance for users to
+                    explore the restaurant's offerings and services.
                   </p>
-                  <a href="https://github.com/Yagnik-2104/restourenthome" target="_blank" className="btn btn-primary">
+                  <a
+                    href="https://github.com/Yagnik-2104/restourenthome"
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
@@ -149,9 +177,16 @@ const Project = () => {
                     IT Website Homepage
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                  Create an innovative IT website homepage using React.js, featuring cutting-edge components for a dynamic user experience. Utilize React's flexibility to showcase services, technologies, and company information seamlessly.
+                    Create an innovative IT website homepage using React.js,
+                    featuring cutting-edge components for a dynamic user
+                    experience. Utilize React's flexibility to showcase
+                    services, technologies, and company information seamlessly.
                   </p>
-                  <a href="https://github.com/Yagnik-2104/Homepage" target="_blank" className="btn btn-primary">
+                  <a
+                    href="https://github.com/Yagnik-2104/Homepage"
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
@@ -182,17 +217,22 @@ const Project = () => {
                     Blog Api Website
                   </div>
                   <p className="card-text" style={{ textAlign: "justify" }}>
-                  Build a robust blog API website with React.js, leveraging its powerful frontend capabilities. Implement seamless integration with backend APIs for dynamic content, ensuring a user-friendly and responsive blogging experience.
+                    Build a robust blog API website with React.js, leveraging
+                    its powerful frontend capabilities. Implement seamless
+                    integration with backend APIs for dynamic content, ensuring
+                    a user-friendly and responsive blogging experience.
                   </p>
-                  <a href="https://github.com/Yagnik-2104/Blogap" target="_blank" className="btn btn-primary">
+                  <a
+                    href="https://github.com/Yagnik-2104/Blogap"
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
                     <FaGithub />
                     &nbsp; GitHub
                   </a>
                 </div>
               </div>
             </div>
-
-            
           </div>
         </div>
       </div>

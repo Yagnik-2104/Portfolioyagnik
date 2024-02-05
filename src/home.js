@@ -8,7 +8,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
-  FaRegUser ,
+  FaRegUser,
 } from "react-icons/fa";
 import { LiaUserSolid } from "react-icons/lia";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
@@ -20,12 +20,11 @@ import { Link } from "react-router-dom";
 import Navbar from "./nav";
 import Footer from "./footer";
 
-
 const Home = () => {
   return (
     <div className="">
       <Navbar></Navbar>
-      
+
       <div id="home" className="home-section container-fluid">
         <div id="tsparticles">
           <canvas
@@ -131,22 +130,38 @@ const Home = () => {
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
-                  <a href="https://github.com/Yagnik-2104" target="_blank" className="icon-colour  home-social-icons">
+                  <a
+                    href="https://github.com/Yagnik-2104"
+                    target="_blank"
+                    className="icon-colour  home-social-icons"
+                  >
                     <FaGithub />
                   </a>
                 </li>
                 <li className="social-icons">
-                  <a href="https://twitter.com/?lang=en" target="_blank" className="icon-colour  home-social-icons">
+                  <a
+                    href="https://twitter.com/?lang=en"
+                    target="_blank"
+                    className="icon-colour  home-social-icons"
+                  >
                     <FaTwitter />
                   </a>
                 </li>
                 <li className="social-icons">
-                  <a href="https://www.linkedin.com/in/yagnik-parmar-021b6a252/" target="_blank" className="icon-colour  home-social-icons">
+                  <a
+                    href="https://www.linkedin.com/in/yagnik-parmar-021b6a252/"
+                    target="_blank"
+                    className="icon-colour  home-social-icons"
+                  >
                     <FaLinkedinIn />
                   </a>
                 </li>
                 <li className="social-icons">
-                  <a href="https://www.instagram.com/yagnik2104/" target="_blank" className="icon-colour  home-social-icons">
+                  <a
+                    href="https://www.instagram.com/yagnik2104/"
+                    target="_blank"
+                    className="icon-colour  home-social-icons"
+                  >
                     <FaInstagram />
                   </a>
                 </li>
