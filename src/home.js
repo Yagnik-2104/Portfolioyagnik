@@ -19,6 +19,7 @@ import zIndex from "@mui/material/styles/zIndex";
 import { Link } from "react-router-dom";
 import Navbar from "./nav";
 import Footer from "./footer";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
@@ -59,9 +60,23 @@ const Home = () => {
                     className="Typewriter__wrapper"
                     data-testid="typewriter-wrapper"
                   >
-                    React js developer
+                    <TypeAnimation
+                      preRenderFirstString={true}
+                      sequence={[
+                        1000,
+                        "React js Developer", // initially rendered starting point
+                        1000,
+                        "Front-end Developer",
+                        1000,
+                        "Software Developer",
+                        1000,
+                        "Web Developer",
+                      ]}
+                      speed={10}
+                      style={{ fontSize: "1em" }}
+                      repeat={Infinity}
+                    />
                   </span>
-                  <span className="Typewriter__cursor">|</span>
                 </div>
               </div>
             </div>
@@ -76,6 +91,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div></div>
       <div id="about" className="home-about-section container-fluid">
         <div className="container">
           <div className="row">
